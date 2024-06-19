@@ -1,8 +1,5 @@
 local blind = {
-	loc_txt =  	{
-        name = 'Mahogany Millennium',
-        text = { 'Non-base edition',  'jokers are disabled' }
-    },
+	loc_txt =  	{},
     dollars = 8,
     --boss = {min = 1, max = 10 }, -- for testing purposes
     boss = {showdown = true, min = 10, max = 10 },

@@ -1,9 +1,6 @@
 local AGGREGATE_ODDS = 5
 local blind = {
-	loc_txt =  	{
-        name = 'The Aggregate',
-        text = { '#1# in #2# chance to', 'debuff each played card' }
-    },
+	loc_txt =  	{},
     config = {extra = {odds = AGGREGATE_ODDS}},
     boss = {min = 2, max = 10 }, 
     boss_colour = HEX("e26c5a"),

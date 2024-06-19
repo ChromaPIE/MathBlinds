@@ -1,9 +1,6 @@
 local HAND_DELTA = 5
 local blind = {
-	loc_txt =  	{
-        name = 'Emerald Embedding',
-        text = { '+5 hand size,',  'absurdly large blind' }
-    },
+	loc_txt =  	{},
     mult = 10,
     dollars = 8,
     --boss = {min = 1, max = 10 }, -- for testing purposes

@@ -1,8 +1,5 @@
 local blind = {
-	loc_txt =  	{
-        name = 'Vanilla Void',
-        text = { 'Cards give 0 chips',  'when scored' }
-    },
+	loc_txt =  	{},
     dollars = 8,
     --boss = {min = 1, max = 10 }, -- for testing purposes
     boss = {showdown = true, min = 10, max = 10 },

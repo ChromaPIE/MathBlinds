@@ -1,8 +1,5 @@
 local blind = {
-	loc_txt =  	{
-        name = 'The Floor',
-        text = { '$0 blind reward' }
-    },
+	loc_txt =  	{},
     dollars = 0,
     boss = { min = 2, max = 10 },
     boss_colour = HEX("8befc5"),

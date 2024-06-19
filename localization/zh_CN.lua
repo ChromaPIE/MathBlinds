@@ -2,128 +2,117 @@ return {
 	["descriptions"] = {
 		["Blind"] = {
 			["bl_mathbl_mahogany_millennium"] = {
-				["name"] = "Mahogany Millennium",
+				["name"] = "红褐千禧",
 				["text"] = {
-					"Non-base edition",
-					"jokers are disabled",
+					"带有版本的小丑牌全部失效",
 				},
 			},
 			["bl_mathbl_approach"] = {
-				["name"] = "The Approach",
+				["name"] = "逼近",
 				["text"] = {
-					"If chips are 90-100% of the blind",
-					"after play, increase blind by 25%",
+					"若非致胜出牌得分大于最低要求的90%",
+					"则盲注分数要求提升25%",
 				},
 			},
 			["bl_mathbl_vanilla_void"] = {
-				["name"] = "Vanilla Void",
+				["name"] = "乳白虚空",
 				["text"] = {
-					"Cards give 0 chips",
-					"when scored",
+					"卡牌在计分时不给予筹码",
 				},
 			},
 			["bl_mathbl_aggregate"] = {
-				["name"] = "The Aggregate",
+				["name"] = "全称",
 				["text"] = {
-					"#1# in #2# chance to",
-					"debuff each played card",
+					"每张打出的牌均有#1#/#2#的几率失效",
 				},
 			},
 			["bl_mathbl_cappuccino_circus"] = {
-				["name"] = "Cappuccino Circus",
+				["name"] = "咖色马戏团",
 				["text"] = {
-					"Leftmost and rightmost jokers",
-					"are disabled each hand",
+					"最左侧和最右侧的小丑牌失效",
 				},
 			},
 			["bl_mathbl_witness"] = {
-				["name"] = "The Witness",
+				["name"] = "存在",
 				["text"] = {
-					"#1# ranks in deck",
-					"are debuffed",
+					"牌组中#1#种点数的所有卡牌全部失效",
 				},
 			},
 			["bl_mathbl_pure"] = {
-				["name"] = "The Pure",
+				["name"] = "纯数",
 				["text"] = {
-					"Cards changed from or added to",
-					"the starting deck are debuffed",
+					"初始牌组之外（经过改动或游戏中加入）",
+					"的卡牌全部失效",
 				},
 			},
 			["bl_mathbl_waiouru_wreath"] = {
-				["name"] = "Waiouru Wreath",
+				["name"] = "军绿花环",
 				["text"] = {
-					"Play only one hand,",
-					"normal blind size",
+					"只能出一次牌",
+					"标准Boss盲注得分要求（2X基础）",
 				},
 			},
 			["bl_mathbl_emerald_embedding"] = {
-				["name"] = "Emerald Embedding",
+				["name"] = "祖母绿镶嵌",
 				["text"] = {
-					"+5 hand size,",
-					"absurdly large blind",
+					"手牌上限+5",
+					"超级巨大盲注",
 				},
 			},
 			["bl_mathbl_radical"] = {
-				["name"] = "The Radical",
+				["name"] = "根数",
 				["text"] = {
-					"All enhanced cards",
-					"are debuffed",
+					"增强卡牌全部失效",
 				},
 			},
 			["bl_mathbl_norm"] = {
-				["name"] = "The Norm",
+				["name"] = "范数",
 				["text"] = {
-					"Ranks in played hands",
-					"can't exceed 21",
+					"所出牌的点数总和不得大于21",
 				},
 			},
 			["bl_mathbl_bottom"] = {
-				["name"] = "The Bottom",
+				["name"] = "底",
 				["text"] = {
-					"All low cards",
-					"are debuffed",
+					"点数小于7的卡牌全部失效",
 				},
 			},
 			["bl_mathbl_floor"] = {
-				["name"] = "The Floor",
+				["name"] = "地面",
 				["text"] = {
-					"$0 blind reward",
+					"无奖励金",
 				},
 			},
 			["bl_mathbl_diamond_difference"] = {
-				["name"] = "Diamond Difference",
+				["name"] = "钻石质差",
 				["text"] = {
-					"#1# in #2# cards shift",
-					"by 1 rank each draw",
+					"每#2#张牌中有#1#张",
+					"在抽到时点数将提升或减少1",
 				},
 			},
 			["bl_mathbl_tip"] = {
-				["name"] = "The Tip",
+				["name"] = "顶",
 				["text"] = {
-					"Discarding a card",
-					"costs $1",
+					"每弃掉一张卡牌",
+					"失去$1",
 				},
 			},
 			["bl_mathbl_bar"] = {
-				["name"] = "The Bar",
+				["name"] = "子集",
 				["text"] = {
-					"Cards held in hand",
-					"are debuffed",
+					"留存在手中的卡牌全部失效",
 				},
 			},
 			["bl_mathbl_drop"] = {
-				["name"] = "The Drop",
+				["name"] = "梯降",
 				["text"] = {
-					"-1 hand size",
-					"each hand played",
+					"每次出牌后手牌上限-1",
 				},
 			},
 			["bl_mathbl_infinite"] = {
-				["name"] = "The Infinite",
+				["name"] = "无尽",
 				["text"] = {
-					"Cards can't",
-					"retrigger",
+					"卡牌无法重新触发",
 				},
 			},
 		},

@@ -1,8 +1,5 @@
 local blind = {
-	loc_txt =  	{
-        name = 'The Bar',
-        text = { 'Cards held in hand', 'are debuffed' }
-    },
+	loc_txt =  	{},
     boss = { min = 2, max = 10 },
     boss_colour = HEX("efde8b"),
     atlas = "mathblinds",

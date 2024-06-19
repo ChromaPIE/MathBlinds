@@ -1,9 +1,6 @@
 local HAND_DELTA = 5
 local blind = {
-	loc_txt =  	{
-        name = 'The Drop',
-        text = { '-1 hand size',  'each hand played' }
-    },
+	loc_txt =  	{},
     boss = {min = 2, max = 10 },
     boss_colour = HEX("561847"),
     atlas = "mathblinds",

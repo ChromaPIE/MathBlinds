@@ -1,8 +1,5 @@
 local blind = {
-	loc_txt =  	{
-        name = 'The Norm',
-        text = { 'Ranks in played hands', 'can\'t exceed 21' }
-    },
+	loc_txt =  	{},
     boss = { min = 2, max = 10 },
     boss_colour = HEX("43a595"),
     atlas = "mathblinds",

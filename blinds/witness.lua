@@ -1,8 +1,5 @@
 local blind = {
-	loc_txt =  	{
-        name = 'The Witness',
-        text = { '#1# ranks in deck', 'are debuffed' }
-    },
+	loc_txt =  	{},
     boss = {min = 1, max = 10 }, 
     boss_colour = HEX("ff898f"),
     atlas = "mathblinds",

@@ -1,8 +1,5 @@
 local blind = {
-	loc_txt =  	{
-        name = 'The Pure',
-        text = { 'Cards changed from or added to', 'the starting deck are debuffed' }
-    },
+	loc_txt =  	{},
     boss = { min = 2, max = 10 },
     boss_colour = HEX("5851a0"),
     atlas = "mathblinds",

@@ -1,8 +1,5 @@
 local blind = {
-	loc_txt =  	{
-        name = 'The Infinite',
-        text = { 'Cards can\'t', 'retrigger' }
-    },
+	loc_txt =  	{},
     boss = { min = 2, max = 10 },
     boss_colour = HEX("9e3467"),
     atlas = "mathblinds",

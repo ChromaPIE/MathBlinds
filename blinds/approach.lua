@@ -1,8 +1,5 @@
 local blind = {
-	loc_txt =  	{
-        name = 'The Approach',
-        text = { 'If chips are 90-100% of the blind',  'after play, increase blind by 25%' }
-    },
+	loc_txt =  	{},
     boss = {min = 2, max = 10 }, 
     boss_colour = HEX("e5c3ed"),
     atlas = "mathblinds",

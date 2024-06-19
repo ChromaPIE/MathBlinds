@@ -1,8 +1,5 @@
 local blind = {
-	loc_txt =  	{
-        name = 'The Radical',
-        text = { 'All enhanced cards',  'are debuffed' }
-    },
+	loc_txt =  	{},
     boss = { min = 2, max = 10 },
     boss_colour = HEX("54a74b"),
     atlas = "mathblinds",

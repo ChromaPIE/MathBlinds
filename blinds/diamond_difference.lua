@@ -1,9 +1,6 @@
 local DIAMOND_DIFFERENCE_ODDS = 5
 local blind = {
-	loc_txt =  	{
-        name = 'Diamond Difference',
-        text = { '#1# in #2# cards shift', 'by 1 rank each draw' }
-    },
+	loc_txt =  	{},
     dollars = 8,
     config = {extra = {odds = DIAMOND_DIFFERENCE_ODDS}},
     --boss = {min = 1, max = 10 }, -- for testing purposes
