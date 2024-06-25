@@ -8,7 +8,7 @@ local blind = {
     pos = { x = 0, y = 8}
 }
 
-blind.set_blind = function(self, blind, reset, silent)
+blind.set_blind = function(self, reset, silent)
     for _, card in ipairs(G.playing_cards) do 
         card.backup_get_chip_bonus = card.get_chip_bonus
         card.get_chip_bonus = function() blind:wiggle(); return 0 end
@@ -24,8 +24,8 @@ blind.disable = function(self)
     end
 end
 
-blind.press_play = function(self, blind)
-    blind.triggered = true
+blind.press_play = function(self)
+    G.GAME.blind.triggered = true
 end
 
 blind.defeat = blind.disable
